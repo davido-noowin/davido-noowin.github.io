@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=800 height=600></canvas>
+      <canvas id="unity-canvas" width=1920 height=1080></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -62,9 +62,9 @@
         frameworkUrl: buildUrl + "/davido-noowin.github.io.framework.js",
         codeUrl: buildUrl + "/davido-noowin.github.io.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "UCI CS180 Capstone",
         productName: "Mission Control All Systems Go",
-        productVersion: "1.04",
+        productVersion: "1.05",
         showBanner: unityShowBanner,
       };
 
@@ -93,8 +93,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "800px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1920px";
+        canvas.style.height = "1080px";
       }
 
       loadingBar.style.display = "block";
