@@ -1,0 +1,12 @@
+.centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#google-form-link a {
+    font-family: monospace, sans-serif;
+    font-size: 32px;
+    padding-bottom: 32px;
+  }
