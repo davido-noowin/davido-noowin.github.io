@@ -8,20 +8,33 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1080 height=608></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
+    <div class="game-header">
+      <h1>Mission Control: All Systems Go</h1>
+      <p>Capstone Project in collaboration with ASU & NASA</p>
+      <hr class="line-break">
+      <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas" width=1080 height=608></canvas>
+        <div id="unity-loading-bar">
+          <div id="unity-logo"></div>
+          <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
+          </div>
+        </div>
+        <div id="unity-warning"> </div>
+        <div id="unity-footer">
+          <div id="unity-fullscreen-button"></div>
         </div>
       </div>
-      <div id="unity-warning"> </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Mission Control: All Systems Go</div>
-      </div>
+      <hr class="line-break">
+      <h1>Check out the soundtrack:</h1>
+      <ul class="songs">
+        <li class="song-text"><a href="https://youtu.be/S9hgmZrImZQ" target="_blank">1. Reach for the Stars</a></li>
+        <li class="song-text"><a href="https://youtu.be/IwoIHTl4Mfc" target="_blank">2. Wandering Mind</a></li>
+        <li class="song-text"><a href="https://youtu.be/qumIz6a7kTo" target="_blank">3. Scan At Will!</a></li>
+        <li class="song-text"><a href="https://youtu.be/NNeZPS9cN28" target="_blank">4. Mechanical Madness</a></li>
+        <li class="song-text"><a href="https://youtu.be/HvnUHujUT20" target="_blank">5. Otherworldly</a></li>
+        <li class="song-text"><a href="https://youtu.be/iRi4IpQSDUw" target="_blank">6. Chaos in Space</a></li>
+      </ul>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
