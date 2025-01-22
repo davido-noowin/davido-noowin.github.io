@@ -292,6 +292,10 @@ section {
   height: 90%;
 }
 
+.text-container {
+  color: rgb(85, 85, 85);
+}
+
 .arrow {
   position: absolute;
   right: -5rem;
