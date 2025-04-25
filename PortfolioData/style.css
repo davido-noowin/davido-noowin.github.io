@@ -373,6 +373,7 @@ article .icon {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 3%;
   row-gap: 3%;
+  margin-bottom: 10%;
 }
 
 .color-container {
@@ -403,6 +404,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  margin-top: 30%;
 }
 
 .contact-info-upper-container {
