@@ -1,0 +1,69 @@
+.mission-control-container {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-canvas {
+    width: 1280px;
+    height: 720px;
+    border: none;
+}
+
+.game-subheader {
+    font-size: 24px;
+    color: var(--paragraph-color);
+    padding: 32px;
+}
+
+.game-title {
+    font-size: 64px;
+    font-weight: bold;
+    width: 740px;
+    padding: 16px;
+    text-align: center;
+}
+
+.game-music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    gap: 12px;
+}
+
+.songs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 240px;
+    row-gap: 64px;
+    margin-top: 64px;
+    margin-bottom: 240px;
+}
+
+.song-text {
+    width: 275px;
+    height: 150px;
+    padding: 24px;
+    background-color: #122122;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-text > a {
+    color: var(--text-color1);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+}

@@ -1,0 +1,21 @@
+.infotainment-container {
+    display: flex;
+    flex-direction: row;
+    padding: 120px;
+    justify-content: center;
+}
+
+.infotainment-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 32px;
+}
+
+.infotainment-right {
+    width: 750px;
+    height: 750px;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: var(--text-color1);
+}

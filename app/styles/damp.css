@@ -1,0 +1,42 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 544px;
+    gap: 32px;
+    justify-content: center;
+}
+
+.project-title {
+    font-size: 30px;
+    color: var(--text-color2);
+}
+
+.project-description {
+    font-size: 18px;
+    color: var(--paragraph-color);
+}
+
+.project-list {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.project-bullet {
+    font-size: 18px;
+    color: var(--paragraph-color);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.project-subheader1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+.project-subheader2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}

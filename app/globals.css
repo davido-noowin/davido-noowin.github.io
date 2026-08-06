@@ -1,0 +1,124 @@
+:root {
+    --base-color: #212121;
+    --text-color1: #e5e5e5;
+    --text-color2: #e6e6e6;
+    --text-color3: #000000;
+    --text-color4: rgba(0, 0, 0, 0.55);
+    --paragraph-color: rgba(230, 230, 230, 0.55);
+    --secondary-color: rgba(230, 230, 230, 0.15);
+    --tertiary-color: rgba(230, 230, 230, 0.05);
+    --card-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+    background-color: var(--base-color);
+    color: var(--text-color1);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 64px;
+    width: 100%;
+}
+
+.header-title {
+    text-decoration: none;
+    color: var(--text-color1);
+    font-size: 56px;
+    font-weight: 900;
+    padding-left: 56px;
+}
+
+.header-nav-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: var(--text-color1);
+    font-size: 18px;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 120px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-color2);
+}
+
+.footer-socials-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-social {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--base-color);
+}
+
+.footer-social:hover {
+    cursor: pointer;
+}
+
+.footer-social-image {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-nav-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--text-color2);
+    font-size: 16px;
+    font-weight: 100;
+    width: 130px;
+}
+
+.rounded-border {
+    border-radius: 16px;
+}
