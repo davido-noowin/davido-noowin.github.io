@@ -138,6 +138,8 @@
 .hero-right {
     height: 720px;
     width: auto;
+    margin-right: 120px;
+    border-radius: 16px;
 }
 
 

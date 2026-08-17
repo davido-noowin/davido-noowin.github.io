@@ -1,6 +1,6 @@
 import Image from "next/image";
 import blank from "./assets/blank.jpg";
-import pfp from "./assets/pfp.jpg";
+import pfp from "./assets/pfp1.jpg";
 import pfp2 from "./assets/pfp2.png";
 import infotainment from "./assets/infotainment.png";
 import damp from "./assets/damp.png";
