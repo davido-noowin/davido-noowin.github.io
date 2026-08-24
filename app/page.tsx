@@ -46,13 +46,13 @@ export default function Home() {
           <div className="about-me-text-container">
             <h1 className="about-me-title">More About Me</h1>
             <p className="about-me-text">
-              I am a graduate from UCI with a bachelor's in computer science.
-              Currently, I'm an incoming masters student at UT Austin with an
-              interest in AI and web development. I have experience in full
+              I am a Computer Science masters student at UT Austin with an
+              interest in AI and web development. I am also a graduate from UCI
+              with a bachelor's in computer science. I have experience in full
               stack development with tools and frameworks such as React,
               JavaScript/TypeScript, Python, Java, AWS, and databases tools
-              (both SQL & NoSQL). In my journey, I have created several unique and
-              interesting projects that have helped me grow.
+              (both SQL & NoSQL). In my journey, I have created several unique
+              and interesting projects that have helped me grow.
               <br />
               <br />
               There are several activies that I enjoy aside from programming. I
@@ -99,7 +99,11 @@ export default function Home() {
                 <Image className="hobby-image" src={moonrise} alt="image 1" />
               </div>
               <div className="size2 rounded-border">
-                <Image className="hobby-image" src={timesquare2} alt="image 2" />
+                <Image
+                  className="hobby-image"
+                  src={timesquare2}
+                  alt="image 2"
+                />
               </div>
             </div>
             <div className="hobby-section">
@@ -118,7 +122,11 @@ export default function Home() {
                 <Image className="hobby-image" src={car} alt="image 6" />
               </div>
               <div className="size2 rounded-border">
-                <Image className="hobby-image" src={timesquare1} alt="image 7" />
+                <Image
+                  className="hobby-image"
+                  src={timesquare1}
+                  alt="image 7"
+                />
               </div>
             </div>
           </div>
@@ -200,8 +208,7 @@ export default function Home() {
                     DAMP Search Engine
                   </h3>
                   <p className="project-card-text-subtitle">
-                    Search engine tailored to browse UCI
-                    webpages.
+                    Search engine tailored to browse UCI webpages.
                   </p>
                   <br />
                   <p className="project-card-text-action">Learn more →</p>
@@ -258,7 +265,8 @@ export default function Home() {
                 <div className="project-card-text">
                   <h3 className="project-card-text-title">Mission Control</h3>
                   <p className="project-card-text-subtitle">
-                    A web-based game built as a capstone project in association with NASA & ASU.
+                    A web-based game built as a capstone project in association
+                    with NASA & ASU.
                   </p>
                   <br />
                   <p className="project-card-text-action">Learn more →</p>
@@ -276,9 +284,7 @@ export default function Home() {
                 </div>
                 <div className="project-card-text">
                   <h3 className="project-card-text-title">?</h3>
-                  <p className="project-card-text-subtitle">
-                    Coming soon.
-                  </p>
+                  <p className="project-card-text-subtitle">Coming soon.</p>
                   <br />
                   <p className="project-card-text-action">Learn more →</p>
                 </div>

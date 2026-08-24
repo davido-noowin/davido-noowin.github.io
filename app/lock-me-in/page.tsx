@@ -34,7 +34,7 @@ export default function LockMeIn() {
               GitHub
             </Link>
             <Link
-              href=""
+              href="https://chromewebstore.google.com/detail/lock-me-in/dahnagakenihfoaehfaaalkcgkhdbflb"
               target="_blank"
               rel="noopener noreferrer"
               className="lock-btn"
